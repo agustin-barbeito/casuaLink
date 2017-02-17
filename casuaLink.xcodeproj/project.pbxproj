@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2D3F4491E579CE100C478FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D3F4481E579CE100C478FC /* AppDelegate.swift */; };
+		F2D3F44B1E579CE100C478FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D3F44A1E579CE100C478FC /* ViewController.swift */; };
+		F2D3F44E1E579CE100C478FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D3F44C1E579CE100C478FC /* Main.storyboard */; };
+		F2D3F4511E579CE100C478FC /* casuaLink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2D3F44F1E579CE100C478FC /* casuaLink.xcdatamodeld */; };
+		F2D3F4531E579CE100C478FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D3F4521E579CE100C478FC /* Assets.xcassets */; };
+		F2D3F4561E579CE100C478FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D3F4541E579CE100C478FC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2D3F4451E579CE100C478FC /* casuaLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = casuaLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D3F4481E579CE100C478FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2D3F44A1E579CE100C478FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2D3F44D1E579CE100C478FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2D3F4501E579CE100C478FC /* casuaLink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = casuaLink.xcdatamodel; sourceTree = "<group>"; };
+		F2D3F4521E579CE100C478FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2D3F4551E579CE100C478FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2D3F4571E579CE100C478FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2D3F4421E579CE100C478FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2D3F43C1E579CE100C478FC = {
+			isa = PBXGroup;
+			children = (
+				F2D3F4471E579CE100C478FC /* casuaLink */,
+				F2D3F4461E579CE100C478FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2D3F4461E579CE100C478FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2D3F4451E579CE100C478FC /* casuaLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2D3F4471E579CE100C478FC /* casuaLink */ = {
+			isa = PBXGroup;
+			children = (
+				F2D3F4481E579CE100C478FC /* AppDelegate.swift */,
+				F2D3F44A1E579CE100C478FC /* ViewController.swift */,
+				F2D3F44C1E579CE100C478FC /* Main.storyboard */,
+				F2D3F4521E579CE100C478FC /* Assets.xcassets */,
+				F2D3F4541E579CE100C478FC /* LaunchScreen.storyboard */,
+				F2D3F4571E579CE100C478FC /* Info.plist */,
+				F2D3F44F1E579CE100C478FC /* casuaLink.xcdatamodeld */,
+			);
+			path = casuaLink;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2D3F4441E579CE100C478FC /* casuaLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D3F45A1E579CE100C478FC /* Build configuration list for PBXNativeTarget "casuaLink" */;
+			buildPhases = (
+				F2D3F4411E579CE100C478FC /* Sources */,
+				F2D3F4421E579CE100C478FC /* Frameworks */,
+				F2D3F4431E579CE100C478FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = casuaLink;
+			productName = casuaLink;
+			productReference = F2D3F4451E579CE100C478FC /* casuaLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2D3F43D1E579CE100C478FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Agustin Barbeito";
+				TargetAttributes = {
+					F2D3F4441E579CE100C478FC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F2D3F4401E579CE100C478FC /* Build configuration list for PBXProject "casuaLink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2D3F43C1E579CE100C478FC;
+			productRefGroup = F2D3F4461E579CE100C478FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2D3F4441E579CE100C478FC /* casuaLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2D3F4431E579CE100C478FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D3F4561E579CE100C478FC /* LaunchScreen.storyboard in Resources */,
+				F2D3F4531E579CE100C478FC /* Assets.xcassets in Resources */,
+				F2D3F44E1E579CE100C478FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2D3F4411E579CE100C478FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D3F44B1E579CE100C478FC /* ViewController.swift in Sources */,
+				F2D3F4511E579CE100C478FC /* casuaLink.xcdatamodeld in Sources */,
+				F2D3F4491E579CE100C478FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2D3F44C1E579CE100C478FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D3F44D1E579CE100C478FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2D3F4541E579CE100C478FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D3F4551E579CE100C478FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2D3F4581E579CE100C478FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2D3F4591E579CE100C478FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2D3F45B1E579CE100C478FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = casuaLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Agustin.casuaLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2D3F45C1E579CE100C478FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = casuaLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Agustin.casuaLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2D3F4401E579CE100C478FC /* Build configuration list for PBXProject "casuaLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D3F4581E579CE100C478FC /* Debug */,
+				F2D3F4591E579CE100C478FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D3F45A1E579CE100C478FC /* Build configuration list for PBXNativeTarget "casuaLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D3F45B1E579CE100C478FC /* Debug */,
+				F2D3F45C1E579CE100C478FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2D3F44F1E579CE100C478FC /* casuaLink.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2D3F4501E579CE100C478FC /* casuaLink.xcdatamodel */,
+			);
+			currentVersion = F2D3F4501E579CE100C478FC /* casuaLink.xcdatamodel */;
+			path = casuaLink.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2D3F43D1E579CE100C478FC /* Project object */;
+}
