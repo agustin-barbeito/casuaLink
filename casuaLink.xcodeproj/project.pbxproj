@@ -7,23 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91D88A04BA4063C37143E444 /* Pods_casuaLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71697752EEBDA6DBBD03A57 /* Pods_casuaLink.framework */; };
+		F20510B31E78763B0050D1A2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20510B21E78763B0050D1A2 /* Extensions.swift */; };
+		F20510B51E7897710050D1A2 /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20510B41E7897710050D1A2 /* ChatController.swift */; };
+		F20510B71E7899100050D1A2 /* ChatController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F20510B61E7899100050D1A2 /* ChatController.xib */; };
+		F2063A611E5F9A5F008A78D1 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2063A601E5F9A5F008A78D1 /* LoginController.swift */; };
+		F217D4931E6099CE00AB9CD0 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F217D4921E6099CD00AB9CD0 /* LoginController.xib */; };
+		F21BD95F1E68B2950093B4C4 /* RegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21BD95E1E68B2950093B4C4 /* RegisterController.xib */; };
+		F21BD9651E68BFBD0093B4C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21BD9641E68BFBD0093B4C4 /* Main.storyboard */; };
+		F21BD9671E68C1420093B4C4 /* LogoutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21BD9661E68C1420093B4C4 /* LogoutTableViewController.swift */; };
+		F2324D061E5B84AB00A8064B /* honeyquick.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2324D031E5B84AB00A8064B /* honeyquick.ttf */; };
+		F2324D081E5B84AB00A8064B /* Nelship.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2324D051E5B84AB00A8064B /* Nelship.ttf */; };
+		F2324D0B1E5B933600A8064B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2324D0A1E5B933600A8064B /* Colors.swift */; };
+		F2324D0E1E5B999800A8064B /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2324D0D1E5B999800A8064B /* RegisterController.swift */; };
+		F24A58011E9EAD88005BF107 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = F24A57FF1E9EAD88005BF107 /* photo.png */; };
+		F24A58021E9EAD88005BF107 /* write.png in Resources */ = {isa = PBXBuildFile; fileRef = F24A58001E9EAD88005BF107 /* write.png */; };
 		F2D3F4491E579CE100C478FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D3F4481E579CE100C478FC /* AppDelegate.swift */; };
-		F2D3F44B1E579CE100C478FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D3F44A1E579CE100C478FC /* ViewController.swift */; };
-		F2D3F44E1E579CE100C478FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D3F44C1E579CE100C478FC /* Main.storyboard */; };
 		F2D3F4511E579CE100C478FC /* casuaLink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2D3F44F1E579CE100C478FC /* casuaLink.xcdatamodeld */; };
 		F2D3F4531E579CE100C478FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D3F4521E579CE100C478FC /* Assets.xcassets */; };
 		F2D3F4561E579CE100C478FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D3F4541E579CE100C478FC /* LaunchScreen.storyboard */; };
+		F2D3F45E1E57AC5E00C478FC /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D3F45D1E57AC5E00C478FC /* chat.png */; };
+		F2D9D24C1E832CC000ECEB5A /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D9D24B1E832CC000ECEB5A /* ChatMessageCell.swift */; };
+		F2E0D3391E7C48E900FC981B /* userCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0D3381E7C48E900FC981B /* userCell.swift */; };
+		F2E2EA581E6F36CA00238AE7 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E2EA571E6F36CA00238AE7 /* NewMessageController.swift */; };
+		F2E2EA5A1E6F370200238AE7 /* NewMessageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E2EA591E6F370200238AE7 /* NewMessageController.xib */; };
+		F2E3A0B81E6F5992003D96D6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E3A0B71E6F5992003D96D6 /* User.swift */; };
+		F2E7267B1E5CBBE400E232E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2E7267A1E5CBBE400E232E1 /* GoogleService-Info.plist */; };
+		F2E85A921E7B4274004ED0E4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E85A911E7B4274004ED0E4 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C18AB70C7CCD1D7F0BD22738 /* Pods-casuaLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-casuaLink.release.xcconfig"; path = "Pods/Target Support Files/Pods-casuaLink/Pods-casuaLink.release.xcconfig"; sourceTree = "<group>"; };
+		C71697752EEBDA6DBBD03A57 /* Pods_casuaLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_casuaLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92706F55541B840AE1CB3D1 /* Pods-casuaLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-casuaLink.debug.xcconfig"; path = "Pods/Target Support Files/Pods-casuaLink/Pods-casuaLink.debug.xcconfig"; sourceTree = "<group>"; };
+		F20510B21E78763B0050D1A2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F20510B41E7897710050D1A2 /* ChatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		F20510B61E7899100050D1A2 /* ChatController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatController.xib; sourceTree = "<group>"; };
+		F2063A601E5F9A5F008A78D1 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		F217D4921E6099CD00AB9CD0 /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		F21BD95E1E68B2950093B4C4 /* RegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterController.xib; sourceTree = "<group>"; };
+		F21BD9641E68BFBD0093B4C4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F21BD9661E68C1420093B4C4 /* LogoutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutTableViewController.swift; sourceTree = "<group>"; };
+		F2324D031E5B84AB00A8064B /* honeyquick.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = honeyquick.ttf; sourceTree = "<group>"; };
+		F2324D051E5B84AB00A8064B /* Nelship.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nelship.ttf; sourceTree = "<group>"; };
+		F2324D0A1E5B933600A8064B /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F2324D0D1E5B999800A8064B /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		F24A57FF1E9EAD88005BF107 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		F24A58001E9EAD88005BF107 /* write.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = write.png; sourceTree = "<group>"; };
 		F2D3F4451E579CE100C478FC /* casuaLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = casuaLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D3F4481E579CE100C478FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2D3F44A1E579CE100C478FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2D3F44D1E579CE100C478FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2D3F4501E579CE100C478FC /* casuaLink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = casuaLink.xcdatamodel; sourceTree = "<group>"; };
 		F2D3F4521E579CE100C478FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2D3F4551E579CE100C478FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2D3F4571E579CE100C478FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D3F45D1E57AC5E00C478FC /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		F2D9D24B1E832CC000ECEB5A /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		F2E0D3381E7C48E900FC981B /* userCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userCell.swift; sourceTree = "<group>"; };
+		F2E2EA571E6F36CA00238AE7 /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		F2E2EA591E6F370200238AE7 /* NewMessageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewMessageController.xib; sourceTree = "<group>"; };
+		F2E3A0B71E6F5992003D96D6 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F2E7267A1E5CBBE400E232E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F2E85A911E7B4274004ED0E4 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +75,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D88A04BA4063C37143E444 /* Pods_casuaLink.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11E1F7D58E7C4BF591F47D36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C71697752EEBDA6DBBD03A57 /* Pods_casuaLink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABB176523DE792A74E39F28A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E92706F55541B840AE1CB3D1 /* Pods-casuaLink.debug.xcconfig */,
+				C18AB70C7CCD1D7F0BD22738 /* Pods-casuaLink.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2324D091E5B84CE00A8064B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F2324D031E5B84AB00A8064B /* honeyquick.ttf */,
+				F2324D051E5B84AB00A8064B /* Nelship.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		F2324D0C1E5B934E00A8064B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F2324D0A1E5B933600A8064B /* Colors.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		F2324D0F1E5B9A0900A8064B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F21BD9661E68C1420093B4C4 /* LogoutTableViewController.swift */,
+				F2063A601E5F9A5F008A78D1 /* LoginController.swift */,
+				F2324D0D1E5B999800A8064B /* RegisterController.swift */,
+				F2E2EA571E6F36CA00238AE7 /* NewMessageController.swift */,
+				F20510B41E7897710050D1A2 /* ChatController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F2324D101E5B9A3400A8064B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2E0D33B1E7C491B00FC981B /* Storyboards */,
+				F2E0D33C1E7C492D00FC981B /* Xib's */,
+				F2E0D33A1E7C48FB00FC981B /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		F2D3F43C1E579CE100C478FC = {
 			isa = PBXGroup;
 			children = (
 				F2D3F4471E579CE100C478FC /* casuaLink */,
 				F2D3F4461E579CE100C478FC /* Products */,
+				ABB176523DE792A74E39F28A /* Pods */,
+				11E1F7D58E7C4BF591F47D36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +160,75 @@
 			isa = PBXGroup;
 			children = (
 				F2D3F4481E579CE100C478FC /* AppDelegate.swift */,
-				F2D3F44A1E579CE100C478FC /* ViewController.swift */,
-				F2D3F44C1E579CE100C478FC /* Main.storyboard */,
+				F20510B21E78763B0050D1A2 /* Extensions.swift */,
+				F2E3A0B91E6F5A47003D96D6 /* Model */,
+				F2324D0F1E5B9A0900A8064B /* Controllers */,
+				F2324D101E5B9A3400A8064B /* Views */,
 				F2D3F4521E579CE100C478FC /* Assets.xcassets */,
-				F2D3F4541E579CE100C478FC /* LaunchScreen.storyboard */,
 				F2D3F4571E579CE100C478FC /* Info.plist */,
 				F2D3F44F1E579CE100C478FC /* casuaLink.xcdatamodeld */,
+				F2E7267A1E5CBBE400E232E1 /* GoogleService-Info.plist */,
+				F2324D0C1E5B934E00A8064B /* Utils */,
+				F2D3F45F1E57AC8B00C478FC /* Resources */,
 			);
 			path = casuaLink;
+			sourceTree = "<group>";
+		};
+		F2D3F45F1E57AC8B00C478FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2324D091E5B84CE00A8064B /* Fonts */,
+				F2D3F4601E57ACA000C478FC /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F2D3F4601E57ACA000C478FC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F24A57FF1E9EAD88005BF107 /* photo.png */,
+				F24A58001E9EAD88005BF107 /* write.png */,
+				F2D3F45D1E57AC5E00C478FC /* chat.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F2E0D33A1E7C48FB00FC981B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F2E0D3381E7C48E900FC981B /* userCell.swift */,
+				F2D9D24B1E832CC000ECEB5A /* ChatMessageCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		F2E0D33B1E7C491B00FC981B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F2D3F4541E579CE100C478FC /* LaunchScreen.storyboard */,
+				F21BD9641E68BFBD0093B4C4 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		F2E0D33C1E7C492D00FC981B /* Xib's */ = {
+			isa = PBXGroup;
+			children = (
+				F217D4921E6099CD00AB9CD0 /* LoginController.xib */,
+				F21BD95E1E68B2950093B4C4 /* RegisterController.xib */,
+				F2E2EA591E6F370200238AE7 /* NewMessageController.xib */,
+				F20510B61E7899100050D1A2 /* ChatController.xib */,
+			);
+			name = "Xib's";
+			sourceTree = "<group>";
+		};
+		F2E3A0B91E6F5A47003D96D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2E3A0B71E6F5992003D96D6 /* User.swift */,
+				F2E85A911E7B4274004ED0E4 /* Message.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2D3F45A1E579CE100C478FC /* Build configuration list for PBXNativeTarget "casuaLink" */;
 			buildPhases = (
+				2685DAA9FE08D44F9BFD0911 /* [CP] Check Pods Manifest.lock */,
 				F2D3F4411E579CE100C478FC /* Sources */,
 				F2D3F4421E579CE100C478FC /* Frameworks */,
 				F2D3F4431E579CE100C478FC /* Resources */,
+				387CF19C25476886C0A68646 /* [CP] Embed Pods Frameworks */,
+				5B37E4262B70BC45DF2A48E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,36 +292,96 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F24A58021E9EAD88005BF107 /* write.png in Resources */,
+				F21BD9651E68BFBD0093B4C4 /* Main.storyboard in Resources */,
+				F24A58011E9EAD88005BF107 /* photo.png in Resources */,
+				F2E7267B1E5CBBE400E232E1 /* GoogleService-Info.plist in Resources */,
 				F2D3F4561E579CE100C478FC /* LaunchScreen.storyboard in Resources */,
+				F2E2EA5A1E6F370200238AE7 /* NewMessageController.xib in Resources */,
 				F2D3F4531E579CE100C478FC /* Assets.xcassets in Resources */,
-				F2D3F44E1E579CE100C478FC /* Main.storyboard in Resources */,
+				F20510B71E7899100050D1A2 /* ChatController.xib in Resources */,
+				F217D4931E6099CE00AB9CD0 /* LoginController.xib in Resources */,
+				F2324D061E5B84AB00A8064B /* honeyquick.ttf in Resources */,
+				F21BD95F1E68B2950093B4C4 /* RegisterController.xib in Resources */,
+				F2324D081E5B84AB00A8064B /* Nelship.ttf in Resources */,
+				F2D3F45E1E57AC5E00C478FC /* chat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2685DAA9FE08D44F9BFD0911 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		387CF19C25476886C0A68646 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-casuaLink/Pods-casuaLink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B37E4262B70BC45DF2A48E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-casuaLink/Pods-casuaLink-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F2D3F4411E579CE100C478FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2D3F44B1E579CE100C478FC /* ViewController.swift in Sources */,
+				F2E0D3391E7C48E900FC981B /* userCell.swift in Sources */,
+				F2063A611E5F9A5F008A78D1 /* LoginController.swift in Sources */,
+				F20510B31E78763B0050D1A2 /* Extensions.swift in Sources */,
+				F2324D0E1E5B999800A8064B /* RegisterController.swift in Sources */,
+				F20510B51E7897710050D1A2 /* ChatController.swift in Sources */,
 				F2D3F4511E579CE100C478FC /* casuaLink.xcdatamodeld in Sources */,
+				F2D9D24C1E832CC000ECEB5A /* ChatMessageCell.swift in Sources */,
+				F2324D0B1E5B933600A8064B /* Colors.swift in Sources */,
+				F2E85A921E7B4274004ED0E4 /* Message.swift in Sources */,
+				F2E3A0B81E6F5992003D96D6 /* User.swift in Sources */,
+				F2E2EA581E6F36CA00238AE7 /* NewMessageController.swift in Sources */,
 				F2D3F4491E579CE100C478FC /* AppDelegate.swift in Sources */,
+				F21BD9671E68C1420093B4C4 /* LogoutTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F2D3F44C1E579CE100C478FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2D3F44D1E579CE100C478FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F2D3F4541E579CE100C478FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -251,6 +478,7 @@
 		};
 		F2D3F45B1E579CE100C478FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92706F55541B840AE1CB3D1 /* Pods-casuaLink.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = casuaLink/Info.plist;
@@ -262,6 +490,7 @@
 		};
 		F2D3F45C1E579CE100C478FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C18AB70C7CCD1D7F0BD22738 /* Pods-casuaLink.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = casuaLink/Info.plist;
@@ -290,6 +519,7 @@
 				F2D3F45C1E579CE100C478FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

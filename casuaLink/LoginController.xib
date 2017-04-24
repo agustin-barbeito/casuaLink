@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Nelship.ttf">
+            <string>Nelship</string>
+            <string>Nelship</string>
+        </mutableArray>
+        <mutableArray key="honeyquick.ttf">
+            <string>honeyquick</string>
+            <string>honeyquick</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginController" customModule="casuaLink" customModuleProvider="target">
+            <connections>
+                <outlet property="loginBtn" destination="4tH-N5-tFL" id="ufV-m4-ITt"/>
+                <outlet property="loginEmailField" destination="fHh-5q-i6d" id="QNW-n3-q6h"/>
+                <outlet property="loginPasswordField" destination="Du9-oZ-Oig" id="8r1-Ul-RfW"/>
+                <outlet property="segmentedControl" destination="5z7-Xa-MN9" id="hiE-2h-jVH"/>
+                <outlet property="view" destination="dHM-Qg-m4B" id="6Ta-DT-mSH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="dHM-Qg-m4B">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Fo-q8-dF7">
+                    <rect key="frame" x="100" y="72" width="120" height="120"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="casuaLink" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="555-ek-wfy">
+                    <rect key="frame" x="20" y="215" width="280" height="30"/>
+                    <fontDescription key="fontDescription" name="Nelship" family="Nelship" pointSize="30"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="5z7-Xa-MN9">
+                    <rect key="frame" x="20" y="262" width="280" height="29"/>
+                    <color key="backgroundColor" red="0.28235294119999998" green="0.67843137249999996" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <segments>
+                        <segment title="Login"/>
+                        <segment title="Register"/>
+                    </segments>
+                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="register:" destination="-1" eventType="valueChanged" id="j4j-D5-A1f"/>
+                    </connections>
+                </segmentedControl>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="e-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fHh-5q-i6d">
+                    <rect key="frame" x="20" y="321" width="280" height="30"/>
+                    <fontDescription key="fontDescription" name="honeyquick" family="honeyquick" pointSize="45"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Du9-oZ-Oig">
+                    <rect key="frame" x="20" y="352" width="280" height="30"/>
+                    <fontDescription key="fontDescription" name="honeyquick" family="honeyquick" pointSize="45"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tH-N5-tFL">
+                    <rect key="frame" x="20" y="409" width="280" height="30"/>
+                    <color key="backgroundColor" red="0.086274509799999996" green="0.54901960780000003" blue="0.28235294119999998" alpha="0.59531968940000002" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="Nelship" family="Nelship" pointSize="17"/>
+                    <state key="normal" title="login">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="login:" destination="-1" eventType="touchUpInside" id="PHE-wE-bwJ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.62745098040000002" green="0.99607843139999996" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="5z7-Xa-MN9" firstAttribute="width" secondItem="555-ek-wfy" secondAttribute="width" id="0pD-ah-0Er"/>
+                <constraint firstItem="5z7-Xa-MN9" firstAttribute="centerX" secondItem="dHM-Qg-m4B" secondAttribute="centerX" id="1QW-W5-ZwE"/>
+                <constraint firstItem="Du9-oZ-Oig" firstAttribute="width" secondItem="555-ek-wfy" secondAttribute="width" id="6qc-NY-68s"/>
+                <constraint firstItem="7Fo-q8-dF7" firstAttribute="top" secondItem="dHM-Qg-m4B" secondAttribute="top" constant="72" id="Doe-uH-P0U"/>
+                <constraint firstItem="Du9-oZ-Oig" firstAttribute="top" secondItem="fHh-5q-i6d" secondAttribute="bottom" constant="1" id="Glh-zG-HIE"/>
+                <constraint firstItem="7Fo-q8-dF7" firstAttribute="centerX" secondItem="dHM-Qg-m4B" secondAttribute="centerX" id="I3l-JK-f5v"/>
+                <constraint firstItem="7Fo-q8-dF7" firstAttribute="height" secondItem="dHM-Qg-m4B" secondAttribute="height" multiplier="0.25" id="I76-qf-p5K"/>
+                <constraint firstItem="7Fo-q8-dF7" firstAttribute="width" secondItem="dHM-Qg-m4B" secondAttribute="width" multiplier="0.33" constant="14.399999999999991" id="JQN-fL-DLe"/>
+                <constraint firstItem="5z7-Xa-MN9" firstAttribute="top" secondItem="555-ek-wfy" secondAttribute="bottom" constant="17" id="MUK-cv-T4n"/>
+                <constraint firstItem="555-ek-wfy" firstAttribute="width" secondItem="dHM-Qg-m4B" secondAttribute="width" multiplier="0.85" constant="8" id="Qbm-2W-DW6"/>
+                <constraint firstItem="555-ek-wfy" firstAttribute="height" secondItem="dHM-Qg-m4B" secondAttribute="height" multiplier="0.05" constant="6" id="Tau-qg-Ez6"/>
+                <constraint firstItem="4tH-N5-tFL" firstAttribute="centerX" secondItem="dHM-Qg-m4B" secondAttribute="centerX" id="TyI-Ca-gcl"/>
+                <constraint firstItem="4tH-N5-tFL" firstAttribute="width" secondItem="555-ek-wfy" secondAttribute="width" id="c0v-Xy-zfe"/>
+                <constraint firstItem="fHh-5q-i6d" firstAttribute="top" secondItem="5z7-Xa-MN9" secondAttribute="bottom" constant="31" id="kEI-Pi-VNv"/>
+                <constraint firstItem="Du9-oZ-Oig" firstAttribute="centerX" secondItem="dHM-Qg-m4B" secondAttribute="centerX" id="mYm-mg-y1R"/>
+                <constraint firstItem="555-ek-wfy" firstAttribute="centerX" secondItem="dHM-Qg-m4B" secondAttribute="centerX" id="mx4-6C-zGz"/>
+                <constraint firstItem="fHh-5q-i6d" firstAttribute="centerX" secondItem="dHM-Qg-m4B" secondAttribute="centerX" id="r2i-Q0-SXA"/>
+                <constraint firstItem="fHh-5q-i6d" firstAttribute="width" secondItem="555-ek-wfy" secondAttribute="width" id="rTh-uf-Ngt"/>
+                <constraint firstItem="555-ek-wfy" firstAttribute="top" secondItem="7Fo-q8-dF7" secondAttribute="bottom" constant="23" id="xyn-ch-5iF"/>
+                <constraint firstItem="4tH-N5-tFL" firstAttribute="top" secondItem="Du9-oZ-Oig" secondAttribute="bottom" constant="27" id="zck-SV-cd4"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="18" y="87"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chat.png" width="512" height="512"/>
+    </resources>
+</document>
